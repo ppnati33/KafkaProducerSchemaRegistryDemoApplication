@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "contact_info": {
+      "type": "string"
+    },
+    "ehr_id": {
+      "type": "string"
+    },
+    "modality": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "contact_info",
+    "ehr_id",
+    "modality"
+  ],
+  "title": "Video Callback V 1",
+  "type": "object"
+}
